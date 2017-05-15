@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.extra_rdoc_files = ["README.md", "MIT_LICENSE.txt"]
 
-  s.add_dependency 'activeadmin', '1.0.0.pre5'
-  s.add_dependency 'rails', '~> 5.0.1'
+  s.add_dependency 'activeadmin', '>= 1.0.0.pre5'
+  s.add_dependency 'rails', '<= 5.0.1'
 
   s.add_development_dependency 'rspec-rails', '~> 2.14.1'
   s.add_development_dependency 'shoulda-matchers', '~> 2.7'
